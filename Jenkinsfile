@@ -1,6 +1,6 @@
 pipeline
 {
-    agent Jslave1
+    agent { label 'Jslave1' }
     stages
     {
         stage("Contdownload")
